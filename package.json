@@ -1,0 +1,20 @@
+{
+  "name": "taisha-tweet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "supervisor -e node,js,json app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "supervisor": "^0.9.1"
+  },
+  "dependencies": {
+    "config": "^1.17.1",
+    "express": "^4.13.3",
+    "twit": "^2.1.1"
+  }
+}

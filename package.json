@@ -10,11 +10,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "supervisor": "^0.9.1"
   },
   "dependencies": {
     "config": "^1.17.1",
     "express": "^4.13.3",
-    "twit": "^2.1.1"
+    "twit": "^2.1.1",
+    "supervisor": "^0.9.1"
   }
 }
